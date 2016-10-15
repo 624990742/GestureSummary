@@ -8,7 +8,8 @@
 
 #import "JCGestureListTableViewController.h"
 #import "JCTapGestureViewController.h"
-
+#import "JCRotationGestureViewController.h"
+#import "JCPinchGestureViewController.h"
 static NSString * const GestureIdentifier = @"GestureList";
 @interface JCGestureListTableViewController ()
 
@@ -23,7 +24,7 @@ AllGestures;
     self = [super init];
     if (!self) return nil;
     
-    self.AllGestures = @[[JCTapGestureViewController new]];
+    self.AllGestures = @[[JCTapGestureViewController new],[ JCRotationGestureViewController new],[JCPinchGestureViewController new],[JCTapGestureViewController new]];
     
     
     return self;

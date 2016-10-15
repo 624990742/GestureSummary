@@ -17,6 +17,9 @@
 		FE7B47C31DB2644E00C39A82 /* JCRotationGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B47C21DB2644E00C39A82 /* JCRotationGestureViewController.m */; };
 		FE7B47C41DB2644E00C39A82 /* JCRotationGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B47C21DB2644E00C39A82 /* JCRotationGestureViewController.m */; };
 		FE7B47C51DB2644E00C39A82 /* JCRotationGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B47C21DB2644E00C39A82 /* JCRotationGestureViewController.m */; };
+		FE7B47C81DB26C3800C39A82 /* JCPinchGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B47C71DB26C3800C39A82 /* JCPinchGestureViewController.m */; };
+		FE7B47C91DB26C3800C39A82 /* JCPinchGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B47C71DB26C3800C39A82 /* JCPinchGestureViewController.m */; };
+		FE7B47CA1DB26C3800C39A82 /* JCPinchGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B47C71DB26C3800C39A82 /* JCPinchGestureViewController.m */; };
 		FEF9349F1DB25FA300EEDB12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF9349E1DB25FA300EEDB12 /* main.m */; };
 		FEF934AA1DB25FA400EEDB12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEF934A91DB25FA400EEDB12 /* Assets.xcassets */; };
 		FEF934AD1DB25FA400EEDB12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEF934AB1DB25FA400EEDB12 /* LaunchScreen.storyboard */; };
@@ -50,6 +53,8 @@
 		FE7B47BA1DB2624D00C39A82 /* JCTapGestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCTapGestureViewController.m; sourceTree = "<group>"; };
 		FE7B47C11DB2644E00C39A82 /* JCRotationGestureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCRotationGestureViewController.h; sourceTree = "<group>"; };
 		FE7B47C21DB2644E00C39A82 /* JCRotationGestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCRotationGestureViewController.m; sourceTree = "<group>"; };
+		FE7B47C61DB26C3800C39A82 /* JCPinchGestureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCPinchGestureViewController.h; sourceTree = "<group>"; };
+		FE7B47C71DB26C3800C39A82 /* JCPinchGestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCPinchGestureViewController.m; sourceTree = "<group>"; };
 		FEF9349A1DB25FA300EEDB12 /* GestureSummary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestureSummary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEF9349E1DB25FA300EEDB12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FEF934A91DB25FA400EEDB12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -97,6 +102,8 @@
 				FE7B47BA1DB2624D00C39A82 /* JCTapGestureViewController.m */,
 				FE7B47C11DB2644E00C39A82 /* JCRotationGestureViewController.h */,
 				FE7B47C21DB2644E00C39A82 /* JCRotationGestureViewController.m */,
+				FE7B47C61DB26C3800C39A82 /* JCPinchGestureViewController.h */,
+				FE7B47C71DB26C3800C39A82 /* JCPinchGestureViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -304,6 +311,7 @@
 				FE7B47B61DB2623000C39A82 /* AppDelegate.m in Sources */,
 				FE7B47BB1DB2624D00C39A82 /* JCGestureListTableViewController.m in Sources */,
 				FEF9349F1DB25FA300EEDB12 /* main.m in Sources */,
+				FE7B47C81DB26C3800C39A82 /* JCPinchGestureViewController.m in Sources */,
 				FE7B47BE1DB2624D00C39A82 /* JCTapGestureViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,6 +323,7 @@
 				FE7B47BF1DB2624D00C39A82 /* JCTapGestureViewController.m in Sources */,
 				FE7B47C41DB2644E00C39A82 /* JCRotationGestureViewController.m in Sources */,
 				FE7B47BC1DB2624D00C39A82 /* JCGestureListTableViewController.m in Sources */,
+				FE7B47C91DB26C3800C39A82 /* JCPinchGestureViewController.m in Sources */,
 				FEF934B81DB25FA400EEDB12 /* GestureSummaryTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -326,6 +335,7 @@
 				FE7B47C01DB2624D00C39A82 /* JCTapGestureViewController.m in Sources */,
 				FE7B47C51DB2644E00C39A82 /* JCRotationGestureViewController.m in Sources */,
 				FE7B47BD1DB2624D00C39A82 /* JCGestureListTableViewController.m in Sources */,
+				FE7B47CA1DB26C3800C39A82 /* JCPinchGestureViewController.m in Sources */,
 				FEF934C31DB25FA400EEDB12 /* GestureSummaryUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
