@@ -10,6 +10,8 @@
 #import "JCTapGestureViewController.h"
 #import "JCRotationGestureViewController.h"
 #import "JCPinchGestureViewController.h"
+#import "JCPanGestureViewController.h"
+#import "JCLongPressGestureViewController.h"
 static NSString * const GestureIdentifier = @"GestureList";
 @interface JCGestureListTableViewController ()
 
@@ -24,7 +26,7 @@ AllGestures;
     self = [super init];
     if (!self) return nil;
     
-    self.AllGestures = @[[JCTapGestureViewController new],[ JCRotationGestureViewController new],[JCPinchGestureViewController new],[JCTapGestureViewController new]];
+    self.AllGestures = @[[JCTapGestureViewController new],[ JCRotationGestureViewController new],[JCPinchGestureViewController new],[JCPanGestureViewController new],[JCLongPressGestureViewController new]];
     
     
     return self;

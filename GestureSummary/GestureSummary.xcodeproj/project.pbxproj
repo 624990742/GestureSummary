@@ -20,6 +20,42 @@
 		FE7B47C81DB26C3800C39A82 /* JCPinchGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B47C71DB26C3800C39A82 /* JCPinchGestureViewController.m */; };
 		FE7B47C91DB26C3800C39A82 /* JCPinchGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B47C71DB26C3800C39A82 /* JCPinchGestureViewController.m */; };
 		FE7B47CA1DB26C3800C39A82 /* JCPinchGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B47C71DB26C3800C39A82 /* JCPinchGestureViewController.m */; };
+		FE7B47CD1DB26D8000C39A82 /* JCPanGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B47CC1DB26D8000C39A82 /* JCPanGestureViewController.m */; };
+		FE7B47CE1DB26D8000C39A82 /* JCPanGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B47CC1DB26D8000C39A82 /* JCPanGestureViewController.m */; };
+		FE7B47CF1DB26D8000C39A82 /* JCPanGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B47CC1DB26D8000C39A82 /* JCPanGestureViewController.m */; };
+		FE7B47EA1DB26EDF00C39A82 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B47D21DB26EDF00C39A82 /* MASCompositeConstraint.m */; };
+		FE7B47EB1DB26EDF00C39A82 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B47D21DB26EDF00C39A82 /* MASCompositeConstraint.m */; };
+		FE7B47EC1DB26EDF00C39A82 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B47D21DB26EDF00C39A82 /* MASCompositeConstraint.m */; };
+		FE7B47ED1DB26EDF00C39A82 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B47D51DB26EDF00C39A82 /* MASConstraint.m */; };
+		FE7B47EE1DB26EDF00C39A82 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B47D51DB26EDF00C39A82 /* MASConstraint.m */; };
+		FE7B47EF1DB26EDF00C39A82 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B47D51DB26EDF00C39A82 /* MASConstraint.m */; };
+		FE7B47F01DB26EDF00C39A82 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B47D71DB26EDF00C39A82 /* MASConstraintMaker.m */; };
+		FE7B47F11DB26EDF00C39A82 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B47D71DB26EDF00C39A82 /* MASConstraintMaker.m */; };
+		FE7B47F21DB26EDF00C39A82 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B47D71DB26EDF00C39A82 /* MASConstraintMaker.m */; };
+		FE7B47F31DB26EDF00C39A82 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B47D91DB26EDF00C39A82 /* MASLayoutConstraint.m */; };
+		FE7B47F41DB26EDF00C39A82 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B47D91DB26EDF00C39A82 /* MASLayoutConstraint.m */; };
+		FE7B47F51DB26EDF00C39A82 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B47D91DB26EDF00C39A82 /* MASLayoutConstraint.m */; };
+		FE7B47F61DB26EDF00C39A82 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B47DD1DB26EDF00C39A82 /* MASViewAttribute.m */; };
+		FE7B47F71DB26EDF00C39A82 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B47DD1DB26EDF00C39A82 /* MASViewAttribute.m */; };
+		FE7B47F81DB26EDF00C39A82 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B47DD1DB26EDF00C39A82 /* MASViewAttribute.m */; };
+		FE7B47F91DB26EDF00C39A82 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B47DF1DB26EDF00C39A82 /* MASViewConstraint.m */; };
+		FE7B47FA1DB26EDF00C39A82 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B47DF1DB26EDF00C39A82 /* MASViewConstraint.m */; };
+		FE7B47FB1DB26EDF00C39A82 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B47DF1DB26EDF00C39A82 /* MASViewConstraint.m */; };
+		FE7B47FC1DB26EDF00C39A82 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B47E11DB26EDF00C39A82 /* NSArray+MASAdditions.m */; };
+		FE7B47FD1DB26EDF00C39A82 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B47E11DB26EDF00C39A82 /* NSArray+MASAdditions.m */; };
+		FE7B47FE1DB26EDF00C39A82 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B47E11DB26EDF00C39A82 /* NSArray+MASAdditions.m */; };
+		FE7B47FF1DB26EDF00C39A82 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B47E41DB26EDF00C39A82 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		FE7B48001DB26EDF00C39A82 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B47E41DB26EDF00C39A82 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		FE7B48011DB26EDF00C39A82 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B47E41DB26EDF00C39A82 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		FE7B48021DB26EDF00C39A82 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B47E61DB26EDF00C39A82 /* View+MASAdditions.m */; };
+		FE7B48031DB26EDF00C39A82 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B47E61DB26EDF00C39A82 /* View+MASAdditions.m */; };
+		FE7B48041DB26EDF00C39A82 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B47E61DB26EDF00C39A82 /* View+MASAdditions.m */; };
+		FE7B48051DB26EDF00C39A82 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B47E91DB26EDF00C39A82 /* ViewController+MASAdditions.m */; };
+		FE7B48061DB26EDF00C39A82 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B47E91DB26EDF00C39A82 /* ViewController+MASAdditions.m */; };
+		FE7B48071DB26EDF00C39A82 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B47E91DB26EDF00C39A82 /* ViewController+MASAdditions.m */; };
+		FE7B480A1DB271F200C39A82 /* JCLongPressGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B48091DB271F200C39A82 /* JCLongPressGestureViewController.m */; };
+		FE7B480B1DB271F200C39A82 /* JCLongPressGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B48091DB271F200C39A82 /* JCLongPressGestureViewController.m */; };
+		FE7B480C1DB271F200C39A82 /* JCLongPressGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B48091DB271F200C39A82 /* JCLongPressGestureViewController.m */; };
 		FEF9349F1DB25FA300EEDB12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF9349E1DB25FA300EEDB12 /* main.m */; };
 		FEF934AA1DB25FA400EEDB12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEF934A91DB25FA400EEDB12 /* Assets.xcassets */; };
 		FEF934AD1DB25FA400EEDB12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEF934AB1DB25FA400EEDB12 /* LaunchScreen.storyboard */; };
@@ -55,6 +91,35 @@
 		FE7B47C21DB2644E00C39A82 /* JCRotationGestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCRotationGestureViewController.m; sourceTree = "<group>"; };
 		FE7B47C61DB26C3800C39A82 /* JCPinchGestureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCPinchGestureViewController.h; sourceTree = "<group>"; };
 		FE7B47C71DB26C3800C39A82 /* JCPinchGestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCPinchGestureViewController.m; sourceTree = "<group>"; };
+		FE7B47CB1DB26D8000C39A82 /* JCPanGestureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCPanGestureViewController.h; sourceTree = "<group>"; };
+		FE7B47CC1DB26D8000C39A82 /* JCPanGestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCPanGestureViewController.m; sourceTree = "<group>"; };
+		FE7B47D11DB26EDF00C39A82 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		FE7B47D21DB26EDF00C39A82 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		FE7B47D31DB26EDF00C39A82 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		FE7B47D41DB26EDF00C39A82 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		FE7B47D51DB26EDF00C39A82 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		FE7B47D61DB26EDF00C39A82 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		FE7B47D71DB26EDF00C39A82 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		FE7B47D81DB26EDF00C39A82 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		FE7B47D91DB26EDF00C39A82 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		FE7B47DA1DB26EDF00C39A82 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		FE7B47DB1DB26EDF00C39A82 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		FE7B47DC1DB26EDF00C39A82 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		FE7B47DD1DB26EDF00C39A82 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		FE7B47DE1DB26EDF00C39A82 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		FE7B47DF1DB26EDF00C39A82 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		FE7B47E01DB26EDF00C39A82 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		FE7B47E11DB26EDF00C39A82 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		FE7B47E21DB26EDF00C39A82 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		FE7B47E31DB26EDF00C39A82 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		FE7B47E41DB26EDF00C39A82 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		FE7B47E51DB26EDF00C39A82 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		FE7B47E61DB26EDF00C39A82 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		FE7B47E71DB26EDF00C39A82 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		FE7B47E81DB26EDF00C39A82 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		FE7B47E91DB26EDF00C39A82 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		FE7B48081DB271F200C39A82 /* JCLongPressGestureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCLongPressGestureViewController.h; sourceTree = "<group>"; };
+		FE7B48091DB271F200C39A82 /* JCLongPressGestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCLongPressGestureViewController.m; sourceTree = "<group>"; };
 		FEF9349A1DB25FA300EEDB12 /* GestureSummary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestureSummary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEF9349E1DB25FA300EEDB12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FEF934A91DB25FA400EEDB12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -104,6 +169,10 @@
 				FE7B47C21DB2644E00C39A82 /* JCRotationGestureViewController.m */,
 				FE7B47C61DB26C3800C39A82 /* JCPinchGestureViewController.h */,
 				FE7B47C71DB26C3800C39A82 /* JCPinchGestureViewController.m */,
+				FE7B47CB1DB26D8000C39A82 /* JCPanGestureViewController.h */,
+				FE7B47CC1DB26D8000C39A82 /* JCPanGestureViewController.m */,
+				FE7B48081DB271F200C39A82 /* JCLongPressGestureViewController.h */,
+				FE7B48091DB271F200C39A82 /* JCLongPressGestureViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -111,10 +180,43 @@
 		FE7B47B31DB2623000C39A82 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				FE7B47D01DB26EDF00C39A82 /* Masonry */,
 				FE7B47B41DB2623000C39A82 /* AppDelegate.h */,
 				FE7B47B51DB2623000C39A82 /* AppDelegate.m */,
 			);
 			path = Other;
+			sourceTree = "<group>";
+		};
+		FE7B47D01DB26EDF00C39A82 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				FE7B47D11DB26EDF00C39A82 /* MASCompositeConstraint.h */,
+				FE7B47D21DB26EDF00C39A82 /* MASCompositeConstraint.m */,
+				FE7B47D31DB26EDF00C39A82 /* MASConstraint+Private.h */,
+				FE7B47D41DB26EDF00C39A82 /* MASConstraint.h */,
+				FE7B47D51DB26EDF00C39A82 /* MASConstraint.m */,
+				FE7B47D61DB26EDF00C39A82 /* MASConstraintMaker.h */,
+				FE7B47D71DB26EDF00C39A82 /* MASConstraintMaker.m */,
+				FE7B47D81DB26EDF00C39A82 /* MASLayoutConstraint.h */,
+				FE7B47D91DB26EDF00C39A82 /* MASLayoutConstraint.m */,
+				FE7B47DA1DB26EDF00C39A82 /* Masonry.h */,
+				FE7B47DB1DB26EDF00C39A82 /* MASUtilities.h */,
+				FE7B47DC1DB26EDF00C39A82 /* MASViewAttribute.h */,
+				FE7B47DD1DB26EDF00C39A82 /* MASViewAttribute.m */,
+				FE7B47DE1DB26EDF00C39A82 /* MASViewConstraint.h */,
+				FE7B47DF1DB26EDF00C39A82 /* MASViewConstraint.m */,
+				FE7B47E01DB26EDF00C39A82 /* NSArray+MASAdditions.h */,
+				FE7B47E11DB26EDF00C39A82 /* NSArray+MASAdditions.m */,
+				FE7B47E21DB26EDF00C39A82 /* NSArray+MASShorthandAdditions.h */,
+				FE7B47E31DB26EDF00C39A82 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				FE7B47E41DB26EDF00C39A82 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				FE7B47E51DB26EDF00C39A82 /* View+MASAdditions.h */,
+				FE7B47E61DB26EDF00C39A82 /* View+MASAdditions.m */,
+				FE7B47E71DB26EDF00C39A82 /* View+MASShorthandAdditions.h */,
+				FE7B47E81DB26EDF00C39A82 /* ViewController+MASAdditions.h */,
+				FE7B47E91DB26EDF00C39A82 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
 			sourceTree = "<group>";
 		};
 		FEF934911DB25FA300EEDB12 = {
@@ -307,12 +409,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE7B47FC1DB26EDF00C39A82 /* NSArray+MASAdditions.m in Sources */,
+				FE7B47F91DB26EDF00C39A82 /* MASViewConstraint.m in Sources */,
 				FE7B47C31DB2644E00C39A82 /* JCRotationGestureViewController.m in Sources */,
+				FE7B47F01DB26EDF00C39A82 /* MASConstraintMaker.m in Sources */,
+				FE7B48021DB26EDF00C39A82 /* View+MASAdditions.m in Sources */,
+				FE7B480A1DB271F200C39A82 /* JCLongPressGestureViewController.m in Sources */,
 				FE7B47B61DB2623000C39A82 /* AppDelegate.m in Sources */,
+				FE7B47ED1DB26EDF00C39A82 /* MASConstraint.m in Sources */,
 				FE7B47BB1DB2624D00C39A82 /* JCGestureListTableViewController.m in Sources */,
+				FE7B47F61DB26EDF00C39A82 /* MASViewAttribute.m in Sources */,
+				FE7B47FF1DB26EDF00C39A82 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				FEF9349F1DB25FA300EEDB12 /* main.m in Sources */,
+				FE7B47EA1DB26EDF00C39A82 /* MASCompositeConstraint.m in Sources */,
+				FE7B47F31DB26EDF00C39A82 /* MASLayoutConstraint.m in Sources */,
 				FE7B47C81DB26C3800C39A82 /* JCPinchGestureViewController.m in Sources */,
 				FE7B47BE1DB2624D00C39A82 /* JCTapGestureViewController.m in Sources */,
+				FE7B48051DB26EDF00C39A82 /* ViewController+MASAdditions.m in Sources */,
+				FE7B47CD1DB26D8000C39A82 /* JCPanGestureViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,9 +434,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE7B47EE1DB26EDF00C39A82 /* MASConstraint.m in Sources */,
+				FE7B47F71DB26EDF00C39A82 /* MASViewAttribute.m in Sources */,
+				FE7B48061DB26EDF00C39A82 /* ViewController+MASAdditions.m in Sources */,
+				FE7B47FD1DB26EDF00C39A82 /* NSArray+MASAdditions.m in Sources */,
 				FE7B47BF1DB2624D00C39A82 /* JCTapGestureViewController.m in Sources */,
+				FE7B47FA1DB26EDF00C39A82 /* MASViewConstraint.m in Sources */,
+				FE7B47F41DB26EDF00C39A82 /* MASLayoutConstraint.m in Sources */,
+				FE7B47CE1DB26D8000C39A82 /* JCPanGestureViewController.m in Sources */,
 				FE7B47C41DB2644E00C39A82 /* JCRotationGestureViewController.m in Sources */,
+				FE7B48031DB26EDF00C39A82 /* View+MASAdditions.m in Sources */,
+				FE7B47EB1DB26EDF00C39A82 /* MASCompositeConstraint.m in Sources */,
+				FE7B48001DB26EDF00C39A82 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				FE7B47F11DB26EDF00C39A82 /* MASConstraintMaker.m in Sources */,
 				FE7B47BC1DB2624D00C39A82 /* JCGestureListTableViewController.m in Sources */,
+				FE7B480B1DB271F200C39A82 /* JCLongPressGestureViewController.m in Sources */,
 				FE7B47C91DB26C3800C39A82 /* JCPinchGestureViewController.m in Sources */,
 				FEF934B81DB25FA400EEDB12 /* GestureSummaryTests.m in Sources */,
 			);
@@ -332,9 +458,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE7B47EF1DB26EDF00C39A82 /* MASConstraint.m in Sources */,
+				FE7B47F81DB26EDF00C39A82 /* MASViewAttribute.m in Sources */,
+				FE7B48071DB26EDF00C39A82 /* ViewController+MASAdditions.m in Sources */,
+				FE7B47FE1DB26EDF00C39A82 /* NSArray+MASAdditions.m in Sources */,
 				FE7B47C01DB2624D00C39A82 /* JCTapGestureViewController.m in Sources */,
+				FE7B47FB1DB26EDF00C39A82 /* MASViewConstraint.m in Sources */,
+				FE7B47F51DB26EDF00C39A82 /* MASLayoutConstraint.m in Sources */,
+				FE7B47CF1DB26D8000C39A82 /* JCPanGestureViewController.m in Sources */,
 				FE7B47C51DB2644E00C39A82 /* JCRotationGestureViewController.m in Sources */,
+				FE7B48041DB26EDF00C39A82 /* View+MASAdditions.m in Sources */,
+				FE7B47EC1DB26EDF00C39A82 /* MASCompositeConstraint.m in Sources */,
+				FE7B48011DB26EDF00C39A82 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				FE7B47F21DB26EDF00C39A82 /* MASConstraintMaker.m in Sources */,
 				FE7B47BD1DB2624D00C39A82 /* JCGestureListTableViewController.m in Sources */,
+				FE7B480C1DB271F200C39A82 /* JCLongPressGestureViewController.m in Sources */,
 				FE7B47CA1DB26C3800C39A82 /* JCPinchGestureViewController.m in Sources */,
 				FEF934C31DB25FA400EEDB12 /* GestureSummaryUITests.m in Sources */,
 			);

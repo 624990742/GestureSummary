@@ -40,6 +40,7 @@
     [self.view addSubview:self.rotationLabel];
    }
 
+
 -(void)rotationEvent{
     UIRotationGestureRecognizer *rotationGesture = [[UIRotationGestureRecognizer alloc]initWithTarget:self action:@selector(rotation:)];
     
