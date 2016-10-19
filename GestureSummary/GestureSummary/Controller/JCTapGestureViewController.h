@@ -6,8 +6,7 @@
 //  Copyright © 2016年 JiaChen. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
-@interface JCTapGestureViewController : UIViewController
+#import "JCBaseController.h"
+@interface JCTapGestureViewController : JCBaseController
 
 @end

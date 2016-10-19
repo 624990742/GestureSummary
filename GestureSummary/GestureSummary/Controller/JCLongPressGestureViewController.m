@@ -7,18 +7,22 @@
 //
 
 #import "JCLongPressGestureViewController.h"
-
+#import "Masonry.h"
 @implementation JCLongPressGestureViewController
--(instancetype)init{
-    self = [super init];
-    if (self) {
-        self.title = @"手势";
-    }
-    return self;
-}
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    UILabel *promptLabel =[[UILabel alloc]init];
+    promptLabel.text = @"手指按住屏幕不放看控制台输出";
+    [self.view addSubview:promptLabel];
+    [promptLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+    make.center.equalTo(self.view);
+    make.size.mas_equalTo(CGSizeMake(150, 30));
+    }];
+    
+    
+    
     UILongPressGestureRecognizer *longPress = [[UILongPressGestureRecognizer alloc]initWithTarget:self action:@selector(longPress:)];
     //设置长按手势的最小间隔时间
     longPress.minimumPressDuration = 2;

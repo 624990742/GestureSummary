@@ -17,13 +17,6 @@
 
 @implementation JCRotationGestureViewController
 
--(instancetype)init{
-    self = [super init];
-    if (self) {
-        self.title = @"旋转手势";
-    }
-    return self;
-}
 -(void)viewDidLoad{
     [super viewDidLoad];
     self.view.backgroundColor =[UIColor redColor];
@@ -33,7 +26,7 @@
 
 -(void)creatLabel{
     self.rotationLabel = [[UILabel alloc] initWithFrame:CGRectZero];
-    self.rotationLabel.text = @"用手指点中旋转!";
+    self.rotationLabel.text = @"用两个手指点中旋转!";
     self.rotationLabel.font = [UIFont systemFontOfSize:16.0f];
     [self.rotationLabel sizeToFit];
     self.rotationLabel.center = self.view.center;

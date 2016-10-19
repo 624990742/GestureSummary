@@ -6,8 +6,7 @@
 //  Copyright © 2016年 JC. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
-@interface JCPanGestureViewController : UIViewController
+#import "JCBaseController.h"
+@interface JCPanGestureViewController : JCBaseController
 
 @end

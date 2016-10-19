@@ -15,13 +15,7 @@
 @end
 
 @implementation JCPanGestureViewController
--(instancetype)init{
-    self = [super init];
-    if (self) {
-        self.title = @"拖拽手势";
-    }
-    return self;
-}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];

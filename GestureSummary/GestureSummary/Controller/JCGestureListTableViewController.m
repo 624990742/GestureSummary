@@ -26,8 +26,7 @@ AllGestures;
     self = [super init];
     if (!self) return nil;
     
-    self.AllGestures = @[[JCTapGestureViewController new],[ JCRotationGestureViewController new],[JCPinchGestureViewController new],[JCPanGestureViewController new],[JCLongPressGestureViewController new]];
-    
+    self.AllGestures =@[[[JCTapGestureViewController alloc]initWithTitle:@"点击手势"],[[JCRotationGestureViewController alloc]initWithTitle:@"旋转手势"],[[JCPinchGestureViewController alloc]initWithTitle:@"捏合手势"],[[JCPanGestureViewController alloc]initWithTitle:@"托转手势"],[[JCLongPressGestureViewController alloc]initWithTitle:@"长按手势手势"]];
     
     return self;
 }

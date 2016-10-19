@@ -10,13 +10,6 @@
 
 @implementation JCTapGestureViewController
 
--(instancetype)init{
-    self = [super init];
-    if (self) {
-     self.title = @"点击手势";
-    }
-    return self;
-}
 
 -(void)viewDidLoad{
     [super viewDidLoad];

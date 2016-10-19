@@ -6,8 +6,7 @@
 //  Copyright © 2016年 JC. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
-@interface JCPinchGestureViewController : UIViewController
+#import "JCBaseController.h"
+@interface JCPinchGestureViewController : JCBaseController
 
 @end

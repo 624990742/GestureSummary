@@ -56,6 +56,7 @@
 		FE7B480A1DB271F200C39A82 /* JCLongPressGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B48091DB271F200C39A82 /* JCLongPressGestureViewController.m */; };
 		FE7B480B1DB271F200C39A82 /* JCLongPressGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B48091DB271F200C39A82 /* JCLongPressGestureViewController.m */; };
 		FE7B480C1DB271F200C39A82 /* JCLongPressGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B48091DB271F200C39A82 /* JCLongPressGestureViewController.m */; };
+		FED32A831DB6697900EE2E36 /* JCBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = FED32A821DB6697900EE2E36 /* JCBaseController.m */; };
 		FEF9349F1DB25FA300EEDB12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF9349E1DB25FA300EEDB12 /* main.m */; };
 		FEF934AA1DB25FA400EEDB12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEF934A91DB25FA400EEDB12 /* Assets.xcassets */; };
 		FEF934AD1DB25FA400EEDB12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEF934AB1DB25FA400EEDB12 /* LaunchScreen.storyboard */; };
@@ -120,6 +121,8 @@
 		FE7B47E91DB26EDF00C39A82 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		FE7B48081DB271F200C39A82 /* JCLongPressGestureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCLongPressGestureViewController.h; sourceTree = "<group>"; };
 		FE7B48091DB271F200C39A82 /* JCLongPressGestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCLongPressGestureViewController.m; sourceTree = "<group>"; };
+		FED32A811DB6697900EE2E36 /* JCBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCBaseController.h; sourceTree = "<group>"; };
+		FED32A821DB6697900EE2E36 /* JCBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCBaseController.m; sourceTree = "<group>"; };
 		FEF9349A1DB25FA300EEDB12 /* GestureSummary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestureSummary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEF9349E1DB25FA300EEDB12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FEF934A91DB25FA400EEDB12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -173,6 +176,8 @@
 				FE7B47CC1DB26D8000C39A82 /* JCPanGestureViewController.m */,
 				FE7B48081DB271F200C39A82 /* JCLongPressGestureViewController.h */,
 				FE7B48091DB271F200C39A82 /* JCLongPressGestureViewController.m */,
+				FED32A811DB6697900EE2E36 /* JCBaseController.h */,
+				FED32A821DB6697900EE2E36 /* JCBaseController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -412,6 +417,7 @@
 				FE7B47FC1DB26EDF00C39A82 /* NSArray+MASAdditions.m in Sources */,
 				FE7B47F91DB26EDF00C39A82 /* MASViewConstraint.m in Sources */,
 				FE7B47C31DB2644E00C39A82 /* JCRotationGestureViewController.m in Sources */,
+				FED32A831DB6697900EE2E36 /* JCBaseController.m in Sources */,
 				FE7B47F01DB26EDF00C39A82 /* MASConstraintMaker.m in Sources */,
 				FE7B48021DB26EDF00C39A82 /* View+MASAdditions.m in Sources */,
 				FE7B480A1DB271F200C39A82 /* JCLongPressGestureViewController.m in Sources */,

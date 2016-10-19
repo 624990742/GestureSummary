@@ -6,8 +6,7 @@
 //  Copyright © 2016年 JC. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
-@interface JCRotationGestureViewController : UIViewController
+#import "JCBaseController.h"
+@interface JCRotationGestureViewController : JCBaseController
 
 @end

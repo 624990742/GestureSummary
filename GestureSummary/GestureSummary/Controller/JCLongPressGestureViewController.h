@@ -6,8 +6,7 @@
 //  Copyright © 2016年 JC. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
-@interface JCLongPressGestureViewController : UIViewController
+#import "JCBaseController.h"
+@interface JCLongPressGestureViewController : JCBaseController
 
 @end
