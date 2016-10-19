@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE18CB441DB7C4120004C2FD /* JCTestDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE18CB431DB7C4120004C2FD /* JCTestDemoViewController.m */; };
+		FE18CB451DB7C4120004C2FD /* JCTestDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE18CB431DB7C4120004C2FD /* JCTestDemoViewController.m */; };
+		FE18CB461DB7C4120004C2FD /* JCTestDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE18CB431DB7C4120004C2FD /* JCTestDemoViewController.m */; };
 		FE7B47B61DB2623000C39A82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B47B51DB2623000C39A82 /* AppDelegate.m */; };
 		FE7B47BB1DB2624D00C39A82 /* JCGestureListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B47B81DB2624D00C39A82 /* JCGestureListTableViewController.m */; };
 		FE7B47BC1DB2624D00C39A82 /* JCGestureListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B47B81DB2624D00C39A82 /* JCGestureListTableViewController.m */; };
@@ -57,6 +60,12 @@
 		FE7B480B1DB271F200C39A82 /* JCLongPressGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B48091DB271F200C39A82 /* JCLongPressGestureViewController.m */; };
 		FE7B480C1DB271F200C39A82 /* JCLongPressGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B48091DB271F200C39A82 /* JCLongPressGestureViewController.m */; };
 		FED32A831DB6697900EE2E36 /* JCBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = FED32A821DB6697900EE2E36 /* JCBaseController.m */; };
+		FEDE5FE61DB7B20200D9618D /* JCUISwipeGestureRecognizerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDE5FE51DB7B20200D9618D /* JCUISwipeGestureRecognizerViewController.m */; };
+		FEDE5FE71DB7B20200D9618D /* JCUISwipeGestureRecognizerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDE5FE51DB7B20200D9618D /* JCUISwipeGestureRecognizerViewController.m */; };
+		FEDE5FE81DB7B20200D9618D /* JCUISwipeGestureRecognizerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDE5FE51DB7B20200D9618D /* JCUISwipeGestureRecognizerViewController.m */; };
+		FEDE5FEB1DB7BE7600D9618D /* JCClickRotateDistortionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDE5FEA1DB7BE7600D9618D /* JCClickRotateDistortionViewController.m */; };
+		FEDE5FEC1DB7BE7600D9618D /* JCClickRotateDistortionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDE5FEA1DB7BE7600D9618D /* JCClickRotateDistortionViewController.m */; };
+		FEDE5FED1DB7BE7600D9618D /* JCClickRotateDistortionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDE5FEA1DB7BE7600D9618D /* JCClickRotateDistortionViewController.m */; };
 		FEF9349F1DB25FA300EEDB12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF9349E1DB25FA300EEDB12 /* main.m */; };
 		FEF934AA1DB25FA400EEDB12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEF934A91DB25FA400EEDB12 /* Assets.xcassets */; };
 		FEF934AD1DB25FA400EEDB12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEF934AB1DB25FA400EEDB12 /* LaunchScreen.storyboard */; };
@@ -82,6 +91,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FE18CB421DB7C4120004C2FD /* JCTestDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCTestDemoViewController.h; sourceTree = "<group>"; };
+		FE18CB431DB7C4120004C2FD /* JCTestDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCTestDemoViewController.m; sourceTree = "<group>"; };
 		FE7B47B41DB2623000C39A82 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FE7B47B51DB2623000C39A82 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FE7B47B71DB2624D00C39A82 /* JCGestureListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCGestureListTableViewController.h; sourceTree = "<group>"; };
@@ -123,6 +134,10 @@
 		FE7B48091DB271F200C39A82 /* JCLongPressGestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCLongPressGestureViewController.m; sourceTree = "<group>"; };
 		FED32A811DB6697900EE2E36 /* JCBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCBaseController.h; sourceTree = "<group>"; };
 		FED32A821DB6697900EE2E36 /* JCBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCBaseController.m; sourceTree = "<group>"; };
+		FEDE5FE41DB7B20200D9618D /* JCUISwipeGestureRecognizerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCUISwipeGestureRecognizerViewController.h; sourceTree = "<group>"; };
+		FEDE5FE51DB7B20200D9618D /* JCUISwipeGestureRecognizerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCUISwipeGestureRecognizerViewController.m; sourceTree = "<group>"; };
+		FEDE5FE91DB7BE7600D9618D /* JCClickRotateDistortionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCClickRotateDistortionViewController.h; sourceTree = "<group>"; };
+		FEDE5FEA1DB7BE7600D9618D /* JCClickRotateDistortionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCClickRotateDistortionViewController.m; sourceTree = "<group>"; };
 		FEF9349A1DB25FA300EEDB12 /* GestureSummary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestureSummary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEF9349E1DB25FA300EEDB12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FEF934A91DB25FA400EEDB12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -178,6 +193,12 @@
 				FE7B48091DB271F200C39A82 /* JCLongPressGestureViewController.m */,
 				FED32A811DB6697900EE2E36 /* JCBaseController.h */,
 				FED32A821DB6697900EE2E36 /* JCBaseController.m */,
+				FEDE5FE41DB7B20200D9618D /* JCUISwipeGestureRecognizerViewController.h */,
+				FEDE5FE51DB7B20200D9618D /* JCUISwipeGestureRecognizerViewController.m */,
+				FEDE5FE91DB7BE7600D9618D /* JCClickRotateDistortionViewController.h */,
+				FEDE5FEA1DB7BE7600D9618D /* JCClickRotateDistortionViewController.m */,
+				FE18CB421DB7C4120004C2FD /* JCTestDemoViewController.h */,
+				FE18CB431DB7C4120004C2FD /* JCTestDemoViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -423,15 +444,18 @@
 				FE7B480A1DB271F200C39A82 /* JCLongPressGestureViewController.m in Sources */,
 				FE7B47B61DB2623000C39A82 /* AppDelegate.m in Sources */,
 				FE7B47ED1DB26EDF00C39A82 /* MASConstraint.m in Sources */,
+				FEDE5FEB1DB7BE7600D9618D /* JCClickRotateDistortionViewController.m in Sources */,
 				FE7B47BB1DB2624D00C39A82 /* JCGestureListTableViewController.m in Sources */,
 				FE7B47F61DB26EDF00C39A82 /* MASViewAttribute.m in Sources */,
 				FE7B47FF1DB26EDF00C39A82 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				FEF9349F1DB25FA300EEDB12 /* main.m in Sources */,
+				FE18CB441DB7C4120004C2FD /* JCTestDemoViewController.m in Sources */,
 				FE7B47EA1DB26EDF00C39A82 /* MASCompositeConstraint.m in Sources */,
 				FE7B47F31DB26EDF00C39A82 /* MASLayoutConstraint.m in Sources */,
 				FE7B47C81DB26C3800C39A82 /* JCPinchGestureViewController.m in Sources */,
 				FE7B47BE1DB2624D00C39A82 /* JCTapGestureViewController.m in Sources */,
 				FE7B48051DB26EDF00C39A82 /* ViewController+MASAdditions.m in Sources */,
+				FEDE5FE61DB7B20200D9618D /* JCUISwipeGestureRecognizerViewController.m in Sources */,
 				FE7B47CD1DB26D8000C39A82 /* JCPanGestureViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,9 +466,11 @@
 			files = (
 				FE7B47EE1DB26EDF00C39A82 /* MASConstraint.m in Sources */,
 				FE7B47F71DB26EDF00C39A82 /* MASViewAttribute.m in Sources */,
+				FEDE5FEC1DB7BE7600D9618D /* JCClickRotateDistortionViewController.m in Sources */,
 				FE7B48061DB26EDF00C39A82 /* ViewController+MASAdditions.m in Sources */,
 				FE7B47FD1DB26EDF00C39A82 /* NSArray+MASAdditions.m in Sources */,
 				FE7B47BF1DB2624D00C39A82 /* JCTapGestureViewController.m in Sources */,
+				FE18CB451DB7C4120004C2FD /* JCTestDemoViewController.m in Sources */,
 				FE7B47FA1DB26EDF00C39A82 /* MASViewConstraint.m in Sources */,
 				FE7B47F41DB26EDF00C39A82 /* MASLayoutConstraint.m in Sources */,
 				FE7B47CE1DB26D8000C39A82 /* JCPanGestureViewController.m in Sources */,
@@ -452,6 +478,7 @@
 				FE7B48031DB26EDF00C39A82 /* View+MASAdditions.m in Sources */,
 				FE7B47EB1DB26EDF00C39A82 /* MASCompositeConstraint.m in Sources */,
 				FE7B48001DB26EDF00C39A82 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				FEDE5FE71DB7B20200D9618D /* JCUISwipeGestureRecognizerViewController.m in Sources */,
 				FE7B47F11DB26EDF00C39A82 /* MASConstraintMaker.m in Sources */,
 				FE7B47BC1DB2624D00C39A82 /* JCGestureListTableViewController.m in Sources */,
 				FE7B480B1DB271F200C39A82 /* JCLongPressGestureViewController.m in Sources */,
@@ -466,9 +493,11 @@
 			files = (
 				FE7B47EF1DB26EDF00C39A82 /* MASConstraint.m in Sources */,
 				FE7B47F81DB26EDF00C39A82 /* MASViewAttribute.m in Sources */,
+				FEDE5FED1DB7BE7600D9618D /* JCClickRotateDistortionViewController.m in Sources */,
 				FE7B48071DB26EDF00C39A82 /* ViewController+MASAdditions.m in Sources */,
 				FE7B47FE1DB26EDF00C39A82 /* NSArray+MASAdditions.m in Sources */,
 				FE7B47C01DB2624D00C39A82 /* JCTapGestureViewController.m in Sources */,
+				FE18CB461DB7C4120004C2FD /* JCTestDemoViewController.m in Sources */,
 				FE7B47FB1DB26EDF00C39A82 /* MASViewConstraint.m in Sources */,
 				FE7B47F51DB26EDF00C39A82 /* MASLayoutConstraint.m in Sources */,
 				FE7B47CF1DB26D8000C39A82 /* JCPanGestureViewController.m in Sources */,
@@ -476,6 +505,7 @@
 				FE7B48041DB26EDF00C39A82 /* View+MASAdditions.m in Sources */,
 				FE7B47EC1DB26EDF00C39A82 /* MASCompositeConstraint.m in Sources */,
 				FE7B48011DB26EDF00C39A82 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				FEDE5FE81DB7B20200D9618D /* JCUISwipeGestureRecognizerViewController.m in Sources */,
 				FE7B47F21DB26EDF00C39A82 /* MASConstraintMaker.m in Sources */,
 				FE7B47BD1DB2624D00C39A82 /* JCGestureListTableViewController.m in Sources */,
 				FE7B480C1DB271F200C39A82 /* JCLongPressGestureViewController.m in Sources */,
