@@ -59,6 +59,8 @@
 		FE7B480A1DB271F200C39A82 /* JCLongPressGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B48091DB271F200C39A82 /* JCLongPressGestureViewController.m */; };
 		FE7B480B1DB271F200C39A82 /* JCLongPressGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B48091DB271F200C39A82 /* JCLongPressGestureViewController.m */; };
 		FE7B480C1DB271F200C39A82 /* JCLongPressGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B48091DB271F200C39A82 /* JCLongPressGestureViewController.m */; };
+		FEAD2A201DB900BC0066C9B1 /* JCChangeSearchPlaceholderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAD2A1F1DB900BC0066C9B1 /* JCChangeSearchPlaceholderViewController.m */; };
+		FEAD2A231DB901970066C9B1 /* UISearchBar+JCSearchBarPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAD2A221DB901970066C9B1 /* UISearchBar+JCSearchBarPlaceholder.m */; };
 		FED32A831DB6697900EE2E36 /* JCBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = FED32A821DB6697900EE2E36 /* JCBaseController.m */; };
 		FEDE5FE61DB7B20200D9618D /* JCUISwipeGestureRecognizerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDE5FE51DB7B20200D9618D /* JCUISwipeGestureRecognizerViewController.m */; };
 		FEDE5FE71DB7B20200D9618D /* JCUISwipeGestureRecognizerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDE5FE51DB7B20200D9618D /* JCUISwipeGestureRecognizerViewController.m */; };
@@ -132,6 +134,10 @@
 		FE7B47E91DB26EDF00C39A82 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		FE7B48081DB271F200C39A82 /* JCLongPressGestureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCLongPressGestureViewController.h; sourceTree = "<group>"; };
 		FE7B48091DB271F200C39A82 /* JCLongPressGestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCLongPressGestureViewController.m; sourceTree = "<group>"; };
+		FEAD2A1E1DB900BC0066C9B1 /* JCChangeSearchPlaceholderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCChangeSearchPlaceholderViewController.h; sourceTree = "<group>"; };
+		FEAD2A1F1DB900BC0066C9B1 /* JCChangeSearchPlaceholderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCChangeSearchPlaceholderViewController.m; sourceTree = "<group>"; };
+		FEAD2A211DB901970066C9B1 /* UISearchBar+JCSearchBarPlaceholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISearchBar+JCSearchBarPlaceholder.h"; sourceTree = "<group>"; };
+		FEAD2A221DB901970066C9B1 /* UISearchBar+JCSearchBarPlaceholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISearchBar+JCSearchBarPlaceholder.m"; sourceTree = "<group>"; };
 		FED32A811DB6697900EE2E36 /* JCBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCBaseController.h; sourceTree = "<group>"; };
 		FED32A821DB6697900EE2E36 /* JCBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCBaseController.m; sourceTree = "<group>"; };
 		FEDE5FE41DB7B20200D9618D /* JCUISwipeGestureRecognizerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCUISwipeGestureRecognizerViewController.h; sourceTree = "<group>"; };
@@ -199,6 +205,8 @@
 				FEDE5FEA1DB7BE7600D9618D /* JCClickRotateDistortionViewController.m */,
 				FE18CB421DB7C4120004C2FD /* JCTestDemoViewController.h */,
 				FE18CB431DB7C4120004C2FD /* JCTestDemoViewController.m */,
+				FEAD2A1E1DB900BC0066C9B1 /* JCChangeSearchPlaceholderViewController.h */,
+				FEAD2A1F1DB900BC0066C9B1 /* JCChangeSearchPlaceholderViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -209,6 +217,8 @@
 				FE7B47D01DB26EDF00C39A82 /* Masonry */,
 				FE7B47B41DB2623000C39A82 /* AppDelegate.h */,
 				FE7B47B51DB2623000C39A82 /* AppDelegate.m */,
+				FEAD2A211DB901970066C9B1 /* UISearchBar+JCSearchBarPlaceholder.h */,
+				FEAD2A221DB901970066C9B1 /* UISearchBar+JCSearchBarPlaceholder.m */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -436,6 +446,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE7B47FC1DB26EDF00C39A82 /* NSArray+MASAdditions.m in Sources */,
+				FEAD2A201DB900BC0066C9B1 /* JCChangeSearchPlaceholderViewController.m in Sources */,
 				FE7B47F91DB26EDF00C39A82 /* MASViewConstraint.m in Sources */,
 				FE7B47C31DB2644E00C39A82 /* JCRotationGestureViewController.m in Sources */,
 				FED32A831DB6697900EE2E36 /* JCBaseController.m in Sources */,
@@ -456,6 +467,7 @@
 				FE7B47BE1DB2624D00C39A82 /* JCTapGestureViewController.m in Sources */,
 				FE7B48051DB26EDF00C39A82 /* ViewController+MASAdditions.m in Sources */,
 				FEDE5FE61DB7B20200D9618D /* JCUISwipeGestureRecognizerViewController.m in Sources */,
+				FEAD2A231DB901970066C9B1 /* UISearchBar+JCSearchBarPlaceholder.m in Sources */,
 				FE7B47CD1DB26D8000C39A82 /* JCPanGestureViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
