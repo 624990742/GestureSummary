@@ -1,9 +1,9 @@
 #GestureSummary
- 该项目中主要包含了：
+ 该项目中要包含了：
  ----
-###*手势的基本使用总结demo
+一、手势的基本使用总结demo
 
-###Tap*UISearchBar占位符居左demo
+二、UISearchBar占位符居左demo
 
-###TapTap*橡皮擦demo
+三、TapTap*橡皮擦demo
  
