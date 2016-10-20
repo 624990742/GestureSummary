@@ -16,7 +16,7 @@
 #import "JCClickRotateDistortionViewController.h"
 #import "JCTestDemoViewController.h"
 #import "JCChangeSearchPlaceholderViewController.h"
-
+#import "JCEraserFunctionViewController.h"
 
 static NSString * const GestureIdentifier = @"GestureList";
 @interface JCGestureListTableViewController ()
@@ -33,7 +33,7 @@ AllGestures;
     if (!self) return nil;
     
     self.AllGestures =@[[[JCTapGestureViewController alloc]initWithTitle:@"点击手势"],[[JCRotationGestureViewController alloc]initWithTitle:@"旋转手势"],[[JCPinchGestureViewController alloc]initWithTitle:@"捏合手势"],[[JCPanGestureViewController alloc]initWithTitle:@"托转手势"],[[JCLongPressGestureViewController alloc]initWithTitle:@"长按手势手势"],[[JCUISwipeGestureRecognizerViewController alloc]initWithTitle:@"轻扫手势"],[[JCClickRotateDistortionViewController alloc]initWithTitle:@"点击旋转变形"],[[JCTestDemoViewController alloc]initWithTitle:@"多个手势共存测试demo"],
-    [[JCChangeSearchPlaceholderViewController alloc]initWithTitle:@"更改搜索框占位符居左"]];
+    [[JCChangeSearchPlaceholderViewController alloc]initWithTitle:@"更改搜索框占位符居左"],[[JCEraserFunctionViewController alloc]initWithTitle:@"橡皮擦功能"]];
     
     return self;
 }

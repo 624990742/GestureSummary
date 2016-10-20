@@ -1,5 +1,5 @@
 //
-//  UISearchBar+JCSearchBarPlaceholder.h
+//  JCBaseNavigationController.h
 //  GestureSummary
 //
 //  Created by xuxingjun on 16/10/20.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UISearchBar (JCSearchBarPlaceholder)
-
--(void)changeLeftPlaceholder:(NSString *)placeholder;
+@interface JCBaseNavigationController : UINavigationController
 
 @end

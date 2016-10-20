@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "JCGestureListTableViewController.h"
+#import "JCBaseNavigationController.h"
 @interface AppDelegate ()
 
 @end
@@ -19,10 +20,9 @@
     
     self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
     self.window.backgroundColor = UIColor.whiteColor;
-    
-    UINavigationController *navigationController = [[UINavigationController alloc]initWithRootViewController:[JCGestureListTableViewController new]];
-    
-    
+    JCGestureListTableViewController *JCGestureVC =[[JCGestureListTableViewController alloc]init];
+    JCGestureVC.navigationItem.title = @"小总结";
+    JCBaseNavigationController *navigationController = [[JCBaseNavigationController alloc]initWithRootViewController:JCGestureVC];
     self.window.rootViewController = navigationController;
     [self.window makeKeyAndVisible];
 

@@ -61,6 +61,18 @@
 		FE7B480C1DB271F200C39A82 /* JCLongPressGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B48091DB271F200C39A82 /* JCLongPressGestureViewController.m */; };
 		FEAD2A201DB900BC0066C9B1 /* JCChangeSearchPlaceholderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAD2A1F1DB900BC0066C9B1 /* JCChangeSearchPlaceholderViewController.m */; };
 		FEAD2A231DB901970066C9B1 /* UISearchBar+JCSearchBarPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAD2A221DB901970066C9B1 /* UISearchBar+JCSearchBarPlaceholder.m */; };
+		FEAD2A281DB914770066C9B1 /* JCEraserFunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAD2A271DB914770066C9B1 /* JCEraserFunctionViewController.m */; };
+		FEAD2A291DB914770066C9B1 /* JCEraserFunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAD2A271DB914770066C9B1 /* JCEraserFunctionViewController.m */; };
+		FEAD2A2A1DB914770066C9B1 /* JCEraserFunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAD2A271DB914770066C9B1 /* JCEraserFunctionViewController.m */; };
+		FEAD2A2F1DB915280066C9B1 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAD2A2E1DB915280066C9B1 /* CustomView.m */; };
+		FEAD2A301DB915280066C9B1 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAD2A2E1DB915280066C9B1 /* CustomView.m */; };
+		FEAD2A311DB915280066C9B1 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAD2A2E1DB915280066C9B1 /* CustomView.m */; };
+		FEAD2A341DB915920066C9B1 /* RevealLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAD2A331DB915920066C9B1 /* RevealLayer.m */; };
+		FEAD2A351DB915920066C9B1 /* RevealLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAD2A331DB915920066C9B1 /* RevealLayer.m */; };
+		FEAD2A361DB915920066C9B1 /* RevealLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAD2A331DB915920066C9B1 /* RevealLayer.m */; };
+		FEAD2A3E1DB9179F0066C9B1 /* JCBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAD2A3D1DB9179F0066C9B1 /* JCBaseNavigationController.m */; };
+		FEAD2A3F1DB9179F0066C9B1 /* JCBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAD2A3D1DB9179F0066C9B1 /* JCBaseNavigationController.m */; };
+		FEAD2A401DB9179F0066C9B1 /* JCBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAD2A3D1DB9179F0066C9B1 /* JCBaseNavigationController.m */; };
 		FED32A831DB6697900EE2E36 /* JCBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = FED32A821DB6697900EE2E36 /* JCBaseController.m */; };
 		FEDE5FE61DB7B20200D9618D /* JCUISwipeGestureRecognizerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDE5FE51DB7B20200D9618D /* JCUISwipeGestureRecognizerViewController.m */; };
 		FEDE5FE71DB7B20200D9618D /* JCUISwipeGestureRecognizerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDE5FE51DB7B20200D9618D /* JCUISwipeGestureRecognizerViewController.m */; };
@@ -138,6 +150,14 @@
 		FEAD2A1F1DB900BC0066C9B1 /* JCChangeSearchPlaceholderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCChangeSearchPlaceholderViewController.m; sourceTree = "<group>"; };
 		FEAD2A211DB901970066C9B1 /* UISearchBar+JCSearchBarPlaceholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISearchBar+JCSearchBarPlaceholder.h"; sourceTree = "<group>"; };
 		FEAD2A221DB901970066C9B1 /* UISearchBar+JCSearchBarPlaceholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISearchBar+JCSearchBarPlaceholder.m"; sourceTree = "<group>"; };
+		FEAD2A261DB914770066C9B1 /* JCEraserFunctionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCEraserFunctionViewController.h; sourceTree = "<group>"; };
+		FEAD2A271DB914770066C9B1 /* JCEraserFunctionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCEraserFunctionViewController.m; sourceTree = "<group>"; };
+		FEAD2A2D1DB915280066C9B1 /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		FEAD2A2E1DB915280066C9B1 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		FEAD2A321DB915920066C9B1 /* RevealLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RevealLayer.h; sourceTree = "<group>"; };
+		FEAD2A331DB915920066C9B1 /* RevealLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RevealLayer.m; sourceTree = "<group>"; };
+		FEAD2A3C1DB9179F0066C9B1 /* JCBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCBaseNavigationController.h; sourceTree = "<group>"; };
+		FEAD2A3D1DB9179F0066C9B1 /* JCBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCBaseNavigationController.m; sourceTree = "<group>"; };
 		FED32A811DB6697900EE2E36 /* JCBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCBaseController.h; sourceTree = "<group>"; };
 		FED32A821DB6697900EE2E36 /* JCBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCBaseController.m; sourceTree = "<group>"; };
 		FEDE5FE41DB7B20200D9618D /* JCUISwipeGestureRecognizerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCUISwipeGestureRecognizerViewController.h; sourceTree = "<group>"; };
@@ -185,6 +205,7 @@
 		FE7B47B21DB2623000C39A82 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				FEAD2A251DB914560066C9B1 /* EraserFunction */,
 				FE7B47B71DB2624D00C39A82 /* JCGestureListTableViewController.h */,
 				FE7B47B81DB2624D00C39A82 /* JCGestureListTableViewController.m */,
 				FE7B47B91DB2624D00C39A82 /* JCTapGestureViewController.h */,
@@ -219,6 +240,8 @@
 				FE7B47B51DB2623000C39A82 /* AppDelegate.m */,
 				FEAD2A211DB901970066C9B1 /* UISearchBar+JCSearchBarPlaceholder.h */,
 				FEAD2A221DB901970066C9B1 /* UISearchBar+JCSearchBarPlaceholder.m */,
+				FEAD2A3C1DB9179F0066C9B1 /* JCBaseNavigationController.h */,
+				FEAD2A3D1DB9179F0066C9B1 /* JCBaseNavigationController.m */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -255,6 +278,34 @@
 			path = Masonry;
 			sourceTree = "<group>";
 		};
+		FEAD2A251DB914560066C9B1 /* EraserFunction */ = {
+			isa = PBXGroup;
+			children = (
+				FEAD2A261DB914770066C9B1 /* JCEraserFunctionViewController.h */,
+				FEAD2A271DB914770066C9B1 /* JCEraserFunctionViewController.m */,
+			);
+			path = EraserFunction;
+			sourceTree = "<group>";
+		};
+		FEAD2A2B1DB915160066C9B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FEAD2A2C1DB915160066C9B1 /* EraserFunction */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FEAD2A2C1DB915160066C9B1 /* EraserFunction */ = {
+			isa = PBXGroup;
+			children = (
+				FEAD2A321DB915920066C9B1 /* RevealLayer.h */,
+				FEAD2A331DB915920066C9B1 /* RevealLayer.m */,
+				FEAD2A2D1DB915280066C9B1 /* CustomView.h */,
+				FEAD2A2E1DB915280066C9B1 /* CustomView.m */,
+			);
+			path = EraserFunction;
+			sourceTree = "<group>";
+		};
 		FEF934911DB25FA300EEDB12 = {
 			isa = PBXGroup;
 			children = (
@@ -279,6 +330,7 @@
 			isa = PBXGroup;
 			children = (
 				FE7B47B31DB2623000C39A82 /* Other */,
+				FEAD2A2B1DB915160066C9B1 /* View */,
 				FE7B47B21DB2623000C39A82 /* Controller */,
 				FEF934A91DB25FA400EEDB12 /* Assets.xcassets */,
 				FEF934AB1DB25FA400EEDB12 /* LaunchScreen.storyboard */,
@@ -445,12 +497,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEAD2A341DB915920066C9B1 /* RevealLayer.m in Sources */,
 				FE7B47FC1DB26EDF00C39A82 /* NSArray+MASAdditions.m in Sources */,
 				FEAD2A201DB900BC0066C9B1 /* JCChangeSearchPlaceholderViewController.m in Sources */,
 				FE7B47F91DB26EDF00C39A82 /* MASViewConstraint.m in Sources */,
 				FE7B47C31DB2644E00C39A82 /* JCRotationGestureViewController.m in Sources */,
 				FED32A831DB6697900EE2E36 /* JCBaseController.m in Sources */,
 				FE7B47F01DB26EDF00C39A82 /* MASConstraintMaker.m in Sources */,
+				FEAD2A281DB914770066C9B1 /* JCEraserFunctionViewController.m in Sources */,
 				FE7B48021DB26EDF00C39A82 /* View+MASAdditions.m in Sources */,
 				FE7B480A1DB271F200C39A82 /* JCLongPressGestureViewController.m in Sources */,
 				FE7B47B61DB2623000C39A82 /* AppDelegate.m in Sources */,
@@ -459,6 +513,7 @@
 				FE7B47BB1DB2624D00C39A82 /* JCGestureListTableViewController.m in Sources */,
 				FE7B47F61DB26EDF00C39A82 /* MASViewAttribute.m in Sources */,
 				FE7B47FF1DB26EDF00C39A82 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				FEAD2A2F1DB915280066C9B1 /* CustomView.m in Sources */,
 				FEF9349F1DB25FA300EEDB12 /* main.m in Sources */,
 				FE18CB441DB7C4120004C2FD /* JCTestDemoViewController.m in Sources */,
 				FE7B47EA1DB26EDF00C39A82 /* MASCompositeConstraint.m in Sources */,
@@ -469,6 +524,7 @@
 				FEDE5FE61DB7B20200D9618D /* JCUISwipeGestureRecognizerViewController.m in Sources */,
 				FEAD2A231DB901970066C9B1 /* UISearchBar+JCSearchBarPlaceholder.m in Sources */,
 				FE7B47CD1DB26D8000C39A82 /* JCPanGestureViewController.m in Sources */,
+				FEAD2A3E1DB9179F0066C9B1 /* JCBaseNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,6 +535,7 @@
 				FE7B47EE1DB26EDF00C39A82 /* MASConstraint.m in Sources */,
 				FE7B47F71DB26EDF00C39A82 /* MASViewAttribute.m in Sources */,
 				FEDE5FEC1DB7BE7600D9618D /* JCClickRotateDistortionViewController.m in Sources */,
+				FEAD2A291DB914770066C9B1 /* JCEraserFunctionViewController.m in Sources */,
 				FE7B48061DB26EDF00C39A82 /* ViewController+MASAdditions.m in Sources */,
 				FE7B47FD1DB26EDF00C39A82 /* NSArray+MASAdditions.m in Sources */,
 				FE7B47BF1DB2624D00C39A82 /* JCTapGestureViewController.m in Sources */,
@@ -486,9 +543,12 @@
 				FE7B47FA1DB26EDF00C39A82 /* MASViewConstraint.m in Sources */,
 				FE7B47F41DB26EDF00C39A82 /* MASLayoutConstraint.m in Sources */,
 				FE7B47CE1DB26D8000C39A82 /* JCPanGestureViewController.m in Sources */,
+				FEAD2A3F1DB9179F0066C9B1 /* JCBaseNavigationController.m in Sources */,
 				FE7B47C41DB2644E00C39A82 /* JCRotationGestureViewController.m in Sources */,
 				FE7B48031DB26EDF00C39A82 /* View+MASAdditions.m in Sources */,
+				FEAD2A301DB915280066C9B1 /* CustomView.m in Sources */,
 				FE7B47EB1DB26EDF00C39A82 /* MASCompositeConstraint.m in Sources */,
+				FEAD2A351DB915920066C9B1 /* RevealLayer.m in Sources */,
 				FE7B48001DB26EDF00C39A82 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				FEDE5FE71DB7B20200D9618D /* JCUISwipeGestureRecognizerViewController.m in Sources */,
 				FE7B47F11DB26EDF00C39A82 /* MASConstraintMaker.m in Sources */,
@@ -506,6 +566,7 @@
 				FE7B47EF1DB26EDF00C39A82 /* MASConstraint.m in Sources */,
 				FE7B47F81DB26EDF00C39A82 /* MASViewAttribute.m in Sources */,
 				FEDE5FED1DB7BE7600D9618D /* JCClickRotateDistortionViewController.m in Sources */,
+				FEAD2A2A1DB914770066C9B1 /* JCEraserFunctionViewController.m in Sources */,
 				FE7B48071DB26EDF00C39A82 /* ViewController+MASAdditions.m in Sources */,
 				FE7B47FE1DB26EDF00C39A82 /* NSArray+MASAdditions.m in Sources */,
 				FE7B47C01DB2624D00C39A82 /* JCTapGestureViewController.m in Sources */,
@@ -513,9 +574,12 @@
 				FE7B47FB1DB26EDF00C39A82 /* MASViewConstraint.m in Sources */,
 				FE7B47F51DB26EDF00C39A82 /* MASLayoutConstraint.m in Sources */,
 				FE7B47CF1DB26D8000C39A82 /* JCPanGestureViewController.m in Sources */,
+				FEAD2A401DB9179F0066C9B1 /* JCBaseNavigationController.m in Sources */,
 				FE7B47C51DB2644E00C39A82 /* JCRotationGestureViewController.m in Sources */,
 				FE7B48041DB26EDF00C39A82 /* View+MASAdditions.m in Sources */,
+				FEAD2A311DB915280066C9B1 /* CustomView.m in Sources */,
 				FE7B47EC1DB26EDF00C39A82 /* MASCompositeConstraint.m in Sources */,
+				FEAD2A361DB915920066C9B1 /* RevealLayer.m in Sources */,
 				FE7B48011DB26EDF00C39A82 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				FEDE5FE81DB7B20200D9618D /* JCUISwipeGestureRecognizerViewController.m in Sources */,
 				FE7B47F21DB26EDF00C39A82 /* MASConstraintMaker.m in Sources */,
