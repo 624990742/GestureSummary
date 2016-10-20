@@ -3,7 +3,7 @@
  ----
 一、手势的基本使用总结demo
 
-二、UISearchBar占位符居左demo
+二、UISearchBar占位符居左格式的demo
 
-三、TapTap*橡皮擦demo
+三、橡皮擦功能demo
  
