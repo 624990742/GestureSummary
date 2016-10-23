@@ -1,14 +1,13 @@
 //
 //  AppDelegate.m
-//  GestureSummary
+//  测试TableView
 //
-//  Created by xuxingjun on 16/10/15.
-//  Copyright © 2016年 JC. All rights reserved.
+//  Created by JCTrustYourself on 16/10/22.
+//  Copyright © 2016年 JCNiHao. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "JCSummaryTableVC.h"
-#import "JCBaseNavigationController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -17,15 +16,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
-    self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
-    self.window.backgroundColor = UIColor.whiteColor;
-   JCSummaryTableVC *summaryTableVC =[[JCSummaryTableVC alloc]init];
-   summaryTableVC.navigationItem.title = @"小总结";
-    JCBaseNavigationController *navigationController = [[JCBaseNavigationController alloc]initWithRootViewController:summaryTableVC];
-    self.window.rootViewController = navigationController;
-    [self.window makeKeyAndVisible];
-
+    // Override point for customization after application launch.
     return YES;
 }
 
