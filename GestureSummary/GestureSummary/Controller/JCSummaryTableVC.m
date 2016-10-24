@@ -13,6 +13,8 @@
 #import "JCCheckStateOneVC.h"
 #import "JCEraserFunctionViewController.h"
 #import "JCShowCheckmarkTableVC.h"
+#import "JCOriginalViewController.h"
+
 static NSString * const GestureIdentifier = @"GestureList";
 @interface JCSummaryTableVC ()
 
@@ -27,16 +29,14 @@ AllGestures;
     self = [super init];
     if (!self) return nil;
     
-    self.AllGestures =@[[[JCGestureListTableViewController alloc]init],[[JCChangeSearchPlaceholderViewController alloc]initWithTitle:@"更改搜索框占位符居左"],[[JCEraserFunctionViewController alloc]initWithTitle:@"橡皮擦功能"],[[JCCheckStateOneVC alloc]initWithTitle:@"选中cell的状态"],[[JCShowCheckMarkTableVC alloc]initWithTitle:@"单选显示对勾的方法"]];
+    self.AllGestures =@[[[JCGestureListTableViewController alloc]init],[[JCChangeSearchPlaceholderViewController alloc]initWithTitle:@"更改搜索框占位符居左"],[[JCEraserFunctionViewController alloc]initWithTitle:@"橡皮擦功能"],[[JCCheckStateOneVC alloc]initWithTitle:@"选中cell的状态"],[[JCShowCheckMarkTableVC alloc]initWithTitle:@"单选显示对勾的方法"],[[JCOriginalViewController alloc]initWithTitle:@"通知与block传值的区别"]];
     
     return self;
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
     [self.tableView registerClass:UITableViewCell.class forCellReuseIdentifier:GestureIdentifier];
-    
 }
 
 #pragma mark - TableviewDataSource

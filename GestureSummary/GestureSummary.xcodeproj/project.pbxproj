@@ -40,6 +40,10 @@
 		3A9A6F5A1DBBAEE9008CED73 /* JCSummaryTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9A6F591DBBAEE9008CED73 /* JCSummaryTableVC.m */; };
 		3A9A6F5B1DBBAEE9008CED73 /* JCSummaryTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9A6F591DBBAEE9008CED73 /* JCSummaryTableVC.m */; };
 		3A9A6F5C1DBBAEE9008CED73 /* JCSummaryTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9A6F591DBBAEE9008CED73 /* JCSummaryTableVC.m */; };
+		3AB5127A1DBE43500087D002 /* JCChangeSearchPlaceholderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB512791DBE43500087D002 /* JCChangeSearchPlaceholderViewController.m */; };
+		3AB5127D1DBE454C0087D002 /* JCOriginalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB5127C1DBE454C0087D002 /* JCOriginalViewController.m */; };
+		3AB512811DBE52E80087D002 /* JCPresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB512801DBE52E80087D002 /* JCPresentViewController.m */; };
+		3AB512841DBE54D40087D002 /* JCPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB512831DBE54D40087D002 /* JCPushViewController.m */; };
 		3AC40A5A1DBCDF7900B51F44 /* JCCheckStateOneVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC40A591DBCDF7900B51F44 /* JCCheckStateOneVC.m */; };
 		3AC40A601DBCE2F900B51F44 /* JCShowCheckMarkTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC40A5F1DBCE2F900B51F44 /* JCShowCheckMarkTableVC.m */; };
 		3AC40A631DBCF6CF00B51F44 /* JCCheckStateTwoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC40A621DBCF6CF00B51F44 /* JCCheckStateTwoVC.m */; };
@@ -75,7 +79,6 @@
 		FE7B48051DB26EDF00C39A82 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B47E91DB26EDF00C39A82 /* ViewController+MASAdditions.m */; };
 		FE7B48061DB26EDF00C39A82 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B47E91DB26EDF00C39A82 /* ViewController+MASAdditions.m */; };
 		FE7B48071DB26EDF00C39A82 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B47E91DB26EDF00C39A82 /* ViewController+MASAdditions.m */; };
-		FEAD2A201DB900BC0066C9B1 /* JCChangeSearchPlaceholderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAD2A1F1DB900BC0066C9B1 /* JCChangeSearchPlaceholderViewController.m */; };
 		FEAD2A231DB901970066C9B1 /* UISearchBar+JCSearchBarPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAD2A221DB901970066C9B1 /* UISearchBar+JCSearchBarPlaceholder.m */; };
 		FEAD2A281DB914770066C9B1 /* JCEraserFunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAD2A271DB914770066C9B1 /* JCEraserFunctionViewController.m */; };
 		FEAD2A291DB914770066C9B1 /* JCEraserFunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAD2A271DB914770066C9B1 /* JCEraserFunctionViewController.m */; };
@@ -134,6 +137,15 @@
 		3A9A6F3C1DBBAE7C008CED73 /* JCUISwipeGestureRecognizerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCUISwipeGestureRecognizerViewController.m; sourceTree = "<group>"; };
 		3A9A6F581DBBAEE9008CED73 /* JCSummaryTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCSummaryTableVC.h; sourceTree = "<group>"; };
 		3A9A6F591DBBAEE9008CED73 /* JCSummaryTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCSummaryTableVC.m; sourceTree = "<group>"; };
+		3AB512781DBE43500087D002 /* JCChangeSearchPlaceholderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCChangeSearchPlaceholderViewController.h; sourceTree = "<group>"; };
+		3AB512791DBE43500087D002 /* JCChangeSearchPlaceholderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCChangeSearchPlaceholderViewController.m; sourceTree = "<group>"; };
+		3AB5127B1DBE454C0087D002 /* JCOriginalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCOriginalViewController.h; sourceTree = "<group>"; };
+		3AB5127C1DBE454C0087D002 /* JCOriginalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCOriginalViewController.m; sourceTree = "<group>"; };
+		3AB5127E1DBE45E10087D002 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		3AB5127F1DBE52E80087D002 /* JCPresentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCPresentViewController.h; sourceTree = "<group>"; };
+		3AB512801DBE52E80087D002 /* JCPresentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCPresentViewController.m; sourceTree = "<group>"; };
+		3AB512821DBE54D40087D002 /* JCPushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCPushViewController.h; sourceTree = "<group>"; };
+		3AB512831DBE54D40087D002 /* JCPushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCPushViewController.m; sourceTree = "<group>"; };
 		3AC40A581DBCDF7900B51F44 /* JCCheckStateOneVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCheckStateOneVC.h; sourceTree = "<group>"; };
 		3AC40A591DBCDF7900B51F44 /* JCCheckStateOneVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCCheckStateOneVC.m; sourceTree = "<group>"; };
 		3AC40A5E1DBCE2F900B51F44 /* JCShowCheckMarkTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCShowCheckMarkTableVC.h; sourceTree = "<group>"; };
@@ -169,8 +181,6 @@
 		FE7B47E71DB26EDF00C39A82 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		FE7B47E81DB26EDF00C39A82 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		FE7B47E91DB26EDF00C39A82 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		FEAD2A1E1DB900BC0066C9B1 /* JCChangeSearchPlaceholderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCChangeSearchPlaceholderViewController.h; sourceTree = "<group>"; };
-		FEAD2A1F1DB900BC0066C9B1 /* JCChangeSearchPlaceholderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCChangeSearchPlaceholderViewController.m; sourceTree = "<group>"; };
 		FEAD2A211DB901970066C9B1 /* UISearchBar+JCSearchBarPlaceholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISearchBar+JCSearchBarPlaceholder.h"; sourceTree = "<group>"; };
 		FEAD2A221DB901970066C9B1 /* UISearchBar+JCSearchBarPlaceholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISearchBar+JCSearchBarPlaceholder.m"; sourceTree = "<group>"; };
 		FEAD2A261DB914770066C9B1 /* JCEraserFunctionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCEraserFunctionViewController.h; sourceTree = "<group>"; };
@@ -244,6 +254,28 @@
 			path = GestureSummary;
 			sourceTree = "<group>";
 		};
+		3AB512761DBE43500087D002 /* Notice */ = {
+			isa = PBXGroup;
+			children = (
+				3AB5127B1DBE454C0087D002 /* JCOriginalViewController.h */,
+				3AB5127C1DBE454C0087D002 /* JCOriginalViewController.m */,
+				3AB5127F1DBE52E80087D002 /* JCPresentViewController.h */,
+				3AB512801DBE52E80087D002 /* JCPresentViewController.m */,
+				3AB512821DBE54D40087D002 /* JCPushViewController.h */,
+				3AB512831DBE54D40087D002 /* JCPushViewController.m */,
+			);
+			path = Notice;
+			sourceTree = "<group>";
+		};
+		3AB512771DBE43500087D002 /* SearchPlaceholder */ = {
+			isa = PBXGroup;
+			children = (
+				3AB512781DBE43500087D002 /* JCChangeSearchPlaceholderViewController.h */,
+				3AB512791DBE43500087D002 /* JCChangeSearchPlaceholderViewController.m */,
+			);
+			path = SearchPlaceholder;
+			sourceTree = "<group>";
+		};
 		3AC40A571DBCDF7900B51F44 /* CheckState */ = {
 			isa = PBXGroup;
 			children = (
@@ -264,13 +296,13 @@
 			children = (
 				3A9A6F581DBBAEE9008CED73 /* JCSummaryTableVC.h */,
 				3A9A6F591DBBAEE9008CED73 /* JCSummaryTableVC.m */,
+				3AB512761DBE43500087D002 /* Notice */,
+				3AB512771DBE43500087D002 /* SearchPlaceholder */,
 				3AC40A571DBCDF7900B51F44 /* CheckState */,
 				FEAD2A251DB914560066C9B1 /* EraserFunction */,
 				3A9A6F2A1DBBAE7C008CED73 /* GestureSummary */,
 				FED32A811DB6697900EE2E36 /* JCBaseController.h */,
 				FED32A821DB6697900EE2E36 /* JCBaseController.m */,
-				FEAD2A1E1DB900BC0066C9B1 /* JCChangeSearchPlaceholderViewController.h */,
-				FEAD2A1F1DB900BC0066C9B1 /* JCChangeSearchPlaceholderViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -285,6 +317,7 @@
 				FEAD2A221DB901970066C9B1 /* UISearchBar+JCSearchBarPlaceholder.m */,
 				3A9A6F241DBBAA0E008CED73 /* JCBaseNavigationController.h */,
 				3A9A6F251DBBAA0E008CED73 /* JCBaseNavigationController.m */,
+				3AB5127E1DBE45E10087D002 /* PrefixHeader.pch */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -544,7 +577,6 @@
 				3A9A6F461DBBAE7C008CED73 /* JCPanGestureViewController.m in Sources */,
 				3AC40A601DBCE2F900B51F44 /* JCShowCheckMarkTableVC.m in Sources */,
 				FE7B47FC1DB26EDF00C39A82 /* NSArray+MASAdditions.m in Sources */,
-				FEAD2A201DB900BC0066C9B1 /* JCChangeSearchPlaceholderViewController.m in Sources */,
 				FE7B47F91DB26EDF00C39A82 /* MASViewConstraint.m in Sources */,
 				FED32A831DB6697900EE2E36 /* JCBaseController.m in Sources */,
 				FE7B47F01DB26EDF00C39A82 /* MASConstraintMaker.m in Sources */,
@@ -557,11 +589,15 @@
 				3AC40A631DBCF6CF00B51F44 /* JCCheckStateTwoVC.m in Sources */,
 				3AC40A5A1DBCDF7900B51F44 /* JCCheckStateOneVC.m in Sources */,
 				FE7B47B61DB2623000C39A82 /* AppDelegate.m in Sources */,
+				3AB5127D1DBE454C0087D002 /* JCOriginalViewController.m in Sources */,
+				3AB512841DBE54D40087D002 /* JCPushViewController.m in Sources */,
 				FE7B47ED1DB26EDF00C39A82 /* MASConstraint.m in Sources */,
 				3A9A6F261DBBAA0E008CED73 /* JCBaseNavigationController.m in Sources */,
 				3A9A6F4F1DBBAE7C008CED73 /* JCTapGestureViewController.m in Sources */,
 				FE7B47F61DB26EDF00C39A82 /* MASViewAttribute.m in Sources */,
 				FE7B47FF1DB26EDF00C39A82 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				3AB5127A1DBE43500087D002 /* JCChangeSearchPlaceholderViewController.m in Sources */,
+				3AB512811DBE52E80087D002 /* JCPresentViewController.m in Sources */,
 				3A9A6F4C1DBBAE7C008CED73 /* JCRotationGestureViewController.m in Sources */,
 				FEAD2A2F1DB915280066C9B1 /* CustomView.m in Sources */,
 				3A9A6F491DBBAE7C008CED73 /* JCPinchGestureViewController.m in Sources */,
@@ -755,6 +791,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GestureSummary/Other/PrefixHeader.pch;
 				INFOPLIST_FILE = GestureSummary/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -770,6 +808,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GestureSummary/Other/PrefixHeader.pch;
 				INFOPLIST_FILE = GestureSummary/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

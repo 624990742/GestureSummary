@@ -1,0 +1,20 @@
+//
+//  PrefixHeader.pch
+//  GestureSummary
+//
+//  Created by JCTrustYourself on 2016/10/24.
+//  Copyright © 2016年 JC. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "Masonry.h"
+#import "JCBaseNavigationController.h"
+
+
+
+
+#endif /* PrefixHeader_pch */
